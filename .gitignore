@@ -1,0 +1,47 @@
+# --- User Configuration ---
+# User-specific IDE settings (As requested by user)
+.idea/
+
+# --- Rust / Cargo ---
+# This directory contains all compiled code and dependencies.
+# It can get very large and should never be committed to Git.
+/target/
+
+# NOTE: Cargo.lock is *NOT* ignored.
+# For application projects (like our game and these scripts),
+# Cargo.lock *should* be committed to ensure all developers
+# (or you on different machines) use the exact same dependency versions.
+# Cargo.lock
+
+# --- Executables and Artifacts ---
+# Compiled binaries
+*.exe
+*.rlib
+*.pdb
+*.o
+*.a
+*.so
+*.dylib
+
+# --- OS-specific files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# --- Environment Files ---
+# Local environment variables (should never be committed)
+.env
+*.env.local
+
+# --- Profiling and Debugging ---
+*.profraw
+*.profdata
