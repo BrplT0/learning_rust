@@ -4,7 +4,7 @@ fn main() {
     let mut scale_input = String::new();
     let mut temp_input = String::new();
 
-    println!("Fahrenheit to Celsius (F)\n or\n Celsius to Fahrenheit (C)?");
+    println!("Fahrenheit to Celsius (F) or Celsius to Fahrenheit (C)?\n");
     io::stdin().read_line(&mut scale_input).unwrap();
 
     println!("Enter a temperature:");
